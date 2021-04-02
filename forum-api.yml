@@ -34,7 +34,7 @@ feign:
       posts: posts
 
 test:
-  value: Value changed again
+  value: Value changed again again
 
 management:
   endpoints:
