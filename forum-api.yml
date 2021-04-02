@@ -36,8 +36,8 @@ feign:
       posts: posts
 
 test:
-  non-updatable-property: fixed value 2
-  updatable-property: v2
+  non-updatable-property: fixed value 2 from master
+  updatable-property: v2 from master
   
 management:
   endpoints:
