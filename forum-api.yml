@@ -36,3 +36,9 @@ feign:
 test:
   value: Value changed again
   value2: new value again
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
