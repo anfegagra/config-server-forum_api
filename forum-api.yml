@@ -34,5 +34,5 @@ feign:
       posts: posts
 
 test:
-  value: Value changed
-  value2: new value
+  value: Value changed again
+  value2: new value again
