@@ -35,3 +35,9 @@ feign:
 
 test:
   value: Value changed again
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
