@@ -1,2 +1,39 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /forum
+
+spring:
+  application:
+    name: forum-api
+  profiles:
+    active: test
+  datasource:
+    url: jdbc:h2:mem:forumdb;init=create schema if not exists forumdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        default_schema: forumdb
+  h2:
+    console:
+      enabled: true
+  flyway:
+    locations: classpath:db/migration
+
+feign:
+  jsonplaceholder:
+    name: JSON-PLACEHOLDER
+    url: https://jsonplaceholder.typicode.com/
+    resource:
+      users: users
+      photos: photos
+      albums: albums
+      comments: comments
+      posts: posts
+
 test:
   value: Value from config server
