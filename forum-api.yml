@@ -34,4 +34,4 @@ feign:
       posts: posts
 
 test:
-  value: Value from config server
+  value: Value changed
