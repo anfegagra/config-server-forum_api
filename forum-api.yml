@@ -39,7 +39,7 @@ test:
   non-updatable-property: fixed value 3 from master
   updatable-property: v3 from master
   config:
-    value: Hello world 2
+    value: Hello world
   
 management:
   endpoints:
