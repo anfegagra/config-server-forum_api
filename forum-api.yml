@@ -36,8 +36,8 @@ feign:
       posts: posts
 
 test:
-  non-updatable-property: fixed value 3 from dev
-  updatable-property: v3 from dev
+  non-updatable-property: fixed value 3 from develop
+  updatable-property: v3 from develop
   
 management:
   endpoints:
