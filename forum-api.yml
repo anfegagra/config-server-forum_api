@@ -37,7 +37,7 @@ feign:
 
 test:
   non-updatable-property: fixed value 3 from develop
-  updatable-property: v3 from develop - final
+  updatable-property: v3 from develop - final 2
   
 management:
   endpoints:
